@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_activity_2"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/SMS_button"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sms"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_sms_button"/>
+
+    <Button
+        android:layout_below="@+id/SMS_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/dial_button"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dial"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_sms_button" />
+
+    <Button
+        android:layout_below="@+id/dial_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:id="@+id/open_browser"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/browser"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_sms_button" />
+
+</RelativeLayout>
